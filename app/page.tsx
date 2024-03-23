@@ -6,7 +6,7 @@ export default function HomePage() {
     <div className="flex flex-col justify-center items-center gap-10 md:mt-24 mt-10 ">
       <div className="flex flex-col gap-5 justify-center lg:mx-40 mx-5 mt-5">
         <h1 className="text-5xl leading-snug md:text-center justify-center transition-all duration-300 black lg:text-6xl ">
-          <span className="dark:text-pinkish text-greenish ">Hi, I&aposm </span>
+          <span className="dark:text-pinkish text-greenish ">Hi, I’m </span>
           Talgat Minikhanov
         </h1>
         <h1 className="text-greenish dark:text-pinkish md:text-center font-bold text-4xl">
