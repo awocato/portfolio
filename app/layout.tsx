@@ -6,9 +6,19 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "awofolio",
-  description: "Portfolio website of Talgat Minikhanov",
-};
-
+  description: "Portfolio made with NextJs and TypeScript",
+  keywords: "portfolio, nextjs, typescript",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://awocato.uz",
+    images: [
+      {
+        url: "https://i.postimg.cc/g0Nbg9v9/thumbnail.png",
+        alt: "awofolio",
+      },
+    ]
+}}
 export default function RootLayout({
   children,
 }: Readonly<{
