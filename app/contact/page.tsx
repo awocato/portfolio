@@ -18,7 +18,7 @@ export default function Contact() {
         </div>
         <div className="flex items-center hover:dark:text-pinkish hover:text-greenish space-x-5">
           <Link className="group" href="tel:+998335310501">
-            if it's urgent,then call me *
+            if it&aposs urgent,then call me *
             <div className="dark:bg-[#f0696e] bg-[#4f772d] h-[2px] w-0 group-hover:w-full mt-2 transition-all duration-500" />
           </Link>
         </div>
