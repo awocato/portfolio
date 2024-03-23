@@ -40,7 +40,10 @@ function Projects() {
                 src={project.image as string}
                 alt={project.name}
               />
-              <Accordion type="single" collapsible>
+                <p className="hidden md:block mb-2 mt-2">
+                      {project.description}
+                    </p>
+              <Accordion className="md:hidden" type="single" collapsible>
                 <AccordionItem value="item">
                   <AccordionTrigger className="text-start">
                   {project.description.slice(0, 47)}...

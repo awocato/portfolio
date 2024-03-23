@@ -17,6 +17,25 @@ body {
 
 
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c9c9c9 #ffffff;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #c9c9c9;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+}
+
 .skill-card {
   perspective: 1000px; 
 }
