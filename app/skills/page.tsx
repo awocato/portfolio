@@ -20,7 +20,7 @@ function SkillsPage() {
               </div>
             </div>
             <div className="absolute rounded-lg skill-card-back w-full h-full px-5 dark:bg-pinkish bg-greenish text-white flex flex-col justify-center items-center transform rotate-y-180">
-              <h1 className="text-3xl font-bold">{skill.name}</h1>
+              <h1 className="text-2xl font-bold">{skill.name}</h1>
               <p>{skill.proficency}</p>
             </div>
           </div>

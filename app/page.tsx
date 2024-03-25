@@ -1,6 +1,8 @@
 import { FaGithub, FaTelegram } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { IconsCarousel } from "@/components/IconsCarousel";
+
 export default function HomePage() {
   return (
     <div className="flex flex-col justify-center items-center gap-10 md:mt-24 mt-10 ">
@@ -14,13 +16,15 @@ export default function HomePage() {
         </h1>
         <h2 className=" md:mx-44">
           Hey there! I’m a front-end wizard who loves to create beautiful and
-          responsive websites. I kinda know HTML, CSS, JavaScript, React, NextJS and couple
-          other stuff. Oh and I’m always hungry to learn more. Let’s work
-          together to create something amazing. 😊
+          responsive websites. I kinda know HTML, CSS, JavaScript, React, NextJS
+          and couple other stuff. Oh and I’m always hungry to learn more. Let’s
+          work together to create something amazing. 😊
         </h2>
         <div className="flex lg:flex-col gap-5 md:justify-center items-center">
           <Button className="relative overflow-hidden transition-all duration-500 ease-in-out hover:dark:bg-pinkish hover:bg-greenish">
-           <Link href="https://drive.google.com/file/d/14cgV6B5l3490BdIJNeNOfpD6z1XOhNlf/view?usp=sharing"> Check out my Resume</Link>
+            <Link href="https://drive.google.com/file/d/14cgV6B5l3490BdIJNeNOfpD6z1XOhNlf/view?usp=sharing">
+              Check out my Resume
+            </Link>
           </Button>
 
           <div className="flex lg:mt-5 gap-5">
@@ -36,6 +40,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
+      {/* <IconsCarousel /> */}
     </div>
   );
 }

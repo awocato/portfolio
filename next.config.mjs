@@ -6,6 +6,10 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'i.postimg.cc',
           },
+          {
+            protocol: 'https',
+            hostname: 'cdn2.thecatapi.com',
+          },
         ],
       },
 };
