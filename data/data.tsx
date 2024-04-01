@@ -55,13 +55,13 @@ const projects: Project[] = [
   },
 
   {
-    name: "SubatomicPasta:🍝🔬",
+    name: "noteSAAS",
     description:
-      "Dive into the fascinating world of SubatomicPasta, a project that delves into the subatomic properties of pasta physics. This project defies conventional wisdom by proposing that pasta can exist in multiple states at once - al dente, overcooked, and undercooked. Embark on a journey through the pasta particle field and uncover the mysterious pasta wave function!",
-    stack: ["Particle Physics", "Pasta Engineering", "Fermi's Pasta Bowl"],
-    sourceCode: "/subatomicPasta",
-    livePreview: "/pastaWave",
-    image: "https://i.postimg.cc/L4N0c61b/pastapic.jpg"
+      "Notes app made with Next.js, TypeScript, and Tailwind CSS. It also uses shadcn for ui components. It uses Prisma, Supabase to store data and Kinde for custom authentification. Project is fully responsive.",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn", "Prisma", "Supabase", "Kinde"],
+    sourceCode: "https://github.com/awocato/saas",
+    livePreview: "https://saas-rho-topaz.vercel.app/",
+    image: "https://i.postimg.cc/j5s6hNjy/notesaas.png"
   },
 ];
 
