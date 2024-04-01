@@ -57,8 +57,8 @@ const projects: Project[] = [
   {
     name: "noteSAAS",
     description:
-      "Notes app made with Next.js, TypeScript, and Tailwind CSS. It also uses shadcn for ui components. It uses Prisma, Supabase to store data and Kinde for custom authentification. Project is fully responsive.",
-    stack: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn", "Prisma", "Supabase", "Kinde"],
+      "This project is a note-taking app. It was built with Next.js, TypeScript, and Tailwind CSS. It also uses shadcn for ui components. It uses Prisma and Supabase for the database. It uses Stripe for payments. It is fully responsive. It is deployed on Vercel. It is fully functional.",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn", "Prisma", "Supabase", "Kinde","Stripe"],
     sourceCode: "https://github.com/awocato/saas",
     livePreview: "https://saas-rho-topaz.vercel.app/",
     image: "https://i.postimg.cc/j5s6hNjy/notesaas.png"
