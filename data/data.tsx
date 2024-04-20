@@ -63,6 +63,15 @@ const projects: Project[] = [
     livePreview: "https://saas-rho-topaz.vercel.app/",
     image: "https://i.postimg.cc/j5s6hNjy/notesaas.png"
   },
+
+  {
+    name: "chat_",
+    description: "Chat app using MERN-stack. It uses MongoDB, Express, React,SocketIO and Node.js.Fully responsive.",
+    stack: ["MongoDB", "Express", "React", "SocketIO", "Node.js", "shadcn", "TailwindCSS"],
+    sourceCode: "https://github.com/awocato/mern-chat",
+    livePreview: "https://mern-chat-orbn.onrender.com/",
+    image: "https://i.postimg.cc/TwCL85tQ/chat.png"
+  }
 ];
 
 const skills = [
