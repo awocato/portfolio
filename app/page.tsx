@@ -1,7 +1,7 @@
 import { FaGithub, FaTelegram } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { IconsCarousel } from "@/components/IconsCarousel";
+// import { IconsCarousel } from "@/components/IconsCarousel";
 
 export default function HomePage() {
   return (
@@ -12,11 +12,11 @@ export default function HomePage() {
           Talgat Minikhanov
         </h1>
         <h1 className="text-greenish dark:text-pinkish md:text-center font-bold text-4xl">
-          A Front-end Engineer
+          A Full-stack Engineer
         </h1>
         <h2 className=" md:mx-44">
-          Hey there! I’m a front-end wizard who loves to create beautiful and
-          responsive websites. I kinda know HTML, CSS, JavaScript, React, NextJS
+          Hey there! I’m a full-stack wizard who loves to create beautiful and
+          responsive websites. I kinda know HTML, CSS, JavaScript, React, NextJS, MERN-stack
           and couple other stuff. Oh and I’m always hungry to learn more. Let’s
           work together to create something amazing. 😊
         </h2>

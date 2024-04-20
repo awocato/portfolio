@@ -18,7 +18,7 @@ const header: Header = {
 
 const about: About = {
   name: "Talgat Minikhanov",
-  role: "Front-End Engineer",
+  role: "Full-Stack Engineer",
   description:
     "Hey there! I’m a full-stack wizard who loves to create beautiful and responsive websites. I kinda know HTML, CSS, JavaScript, MERN-stack and couple other stuff. Oh and I’m always hungry to learn more. Let’s work together to create something amazing. 😊",
   resume:
