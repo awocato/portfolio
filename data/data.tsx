@@ -7,6 +7,8 @@ import { FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiTypescript } from "react-icons/si";
 import { FaRegSmileWink } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
+import { FaNode } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
 import type { Header, About, Project, Contact } from "./dataTypes";
 
 const header: Header = {
@@ -18,7 +20,7 @@ const about: About = {
   name: "Talgat Minikhanov",
   role: "Front-End Engineer",
   description:
-    "Hey there! I’m a front-end wizard who loves to create beautiful and responsive websites. I kinda know HTML, CSS, JavaScript and couple other stuff. Oh and I’m always hungry to learn more. Let’s work together to create something amazing. 😊",
+    "Hey there! I’m a full-stack wizard who loves to create beautiful and responsive websites. I kinda know HTML, CSS, JavaScript, MERN-stack and couple other stuff. Oh and I’m always hungry to learn more. Let’s work together to create something amazing. 😊",
   resume:
     "https://drive.google.com/file/d/1LNAmmUX0xvUR9pydnFhDGbF7LvBeEbVn/view?usp=sharing",
   social: {
@@ -84,6 +86,8 @@ const skills = [
   {icon: <TbBrandNextjs />, name: 'Next.js', proficency: 'around 45%'},
   {icon: <SiTypescript />, name: 'TypeScript', proficency: 'around 65%'},
   {icon: <SiTailwindcss/>, name: 'TailwindCSS', proficency: 'around 55%'},
+  {icon: <FaNode />, name: 'Node.js', proficency: 'around 40%'},
+  {icon: <SiMongodb />, name: 'MongoDB', proficency: 'around 40%'},
   {icon: <FaRegSmileWink />, name: 'and more to learn...'},
 ];
 
